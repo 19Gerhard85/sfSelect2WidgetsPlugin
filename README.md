@@ -14,14 +14,16 @@ Following widgets are included:
 
 Installation
 ------------
-  * Install the plugin
+  * Install the plugin and init submodule
 
         $ cd plugins
         $ git clone git@github.com:19Gerhard85/sfSelect2WidgetsPlugin.git
+        $ cd sfSelect2WidgetsPlugin
+        $ git submodule update --init
 
   * Enable the plugin in your `/config/ProjectConfiguration.class.php`
 
-        $this->enablePlugins('sfDoctrinePlugin', 'sfMediaBrowserPlugin');
+        $this->enablePlugins('sfSelect2WidgetsPlugin');
   
   * Publish assets
 
