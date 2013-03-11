@@ -1,12 +1,14 @@
 <?php
+require_once(dirname(__FILE__) . '/../select2/Select2.class.php');
+
 /**
  * This widget is designed to generate more user friendly autocomplete widgets.
  *
  * @package     symfony
  * @subpackage  widget
- * @link        https://github.com/ivaynberg/select2
+ * @link        https://github.com/19Gerhard85/sfSelect2WidgetsPlugin
  * @author      Ing. Gerhard Schranz <g.schranz@bgcc.at>
- * @version     1.0 2012-08-09
+ * @version     0.1 2013-03-11
  */
 class BgWidgetFormSelect2Autocompleter extends sfWidgetFormInput
 {
@@ -31,6 +33,7 @@ class BgWidgetFormSelect2Autocompleter extends sfWidgetFormInput
         $this->addOption('value_callback', array($this, 'toString'));
         $this->addOption('method', '__toString');
 
+        $this->addOption('culture', sfContext::getInstance()->getUser()->getCulture());
         $this->addOption('width', 'resolve');
         $this->addOption('minimumInputLength', 2);
         $this->addOption('placeholder', '');
@@ -156,7 +159,7 @@ EOF
      */
     public function getStylesheets()
     {
-        return array('/sfSelect2WidgetsPlugin/select2/select2.css' => 'all');
+        return Select2::addStylesheets();
     }
 
     /**
@@ -166,7 +169,7 @@ EOF
      */
     public function getJavascripts()
     {
-        return array('/sfSelect2WidgetsPlugin/select2/select2.js');
+        return Select2::addJavascripts($this->getOption('culture'));
     }
 
     protected function toString($value)

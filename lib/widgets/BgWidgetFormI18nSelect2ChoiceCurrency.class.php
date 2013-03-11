@@ -5,7 +5,7 @@ class BgWidgetFormI18nSelect2ChoiceCurrency extends BgWidgetFormSelect2Choice
     {
         parent::configure($options, $attributes);
 
-        $this->addOption('culture');
+        $this->addOption('culture', sfContext::getInstance()->getUser()->getCulture());
         $this->addOption('currencies');
         $this->addOption('add_empty', false);
 

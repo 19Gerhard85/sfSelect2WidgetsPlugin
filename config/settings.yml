@@ -1,0 +1,4 @@
+all:
+  .settings:
+    select2_web_dir:    /sfSelect2WidgetsPlugin/select2
+    available_cultures: [ de, en, es, fr, hu, it, nl, pt-BR, pt-PT, ru, zh-CN ]
