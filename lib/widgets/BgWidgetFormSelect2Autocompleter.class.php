@@ -156,7 +156,7 @@ EOF
      */
     public function getStylesheets()
     {
-        return array('/js/select2/select2.css' => 'all');
+        return array('/sfSelect2WidgetsPlugin/select2/select2.css' => 'all');
     }
 
     /**
@@ -166,7 +166,7 @@ EOF
      */
     public function getJavascripts()
     {
-        return array('/js/select2/select2.min.js');
+        return array('/sfSelect2WidgetsPlugin/select2/select2.js');
     }
 
     protected function toString($value)
@@ -178,11 +178,6 @@ EOF
             $class::disableSoftDelete();
         }
 
-        if ($class::hasBehavior('justimmo_credential'))
-        {
-            justimmoCredentialToolkit::getInstance()->disable();
-        }
-
         $object = call_user_func(array($class, 'retrieveByPK'), $value);
 
         if ($class::hasBehavior('soft_delete'))
@@ -191,16 +186,6 @@ EOF
         }
 
         $method = $this->getOption('method');
-
-        if ($class::hasBehavior('justimmo_credential'))
-        {
-            justimmoCredentialToolkit::getInstance()->enable();
-
-            if ($method == '__toString')
-            {
-                $method = 'cbToString';
-            }
-        }
 
         if (!method_exists($this->getOption('model'), $method))
         {

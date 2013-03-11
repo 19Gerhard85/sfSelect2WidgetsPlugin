@@ -88,7 +88,7 @@ EOF
      */
     public function getStylesheets()
     {
-        return array('/js/select2/select2.css' => 'all');
+        return array('/sfSelect2WidgetsPlugin/select2/select2.css' => 'all');
     }
 
     /**
@@ -98,6 +98,6 @@ EOF
      */
     public function getJavascripts()
     {
-        return array('/js/select2/select2.min.js');
+        return array('/sfSelect2WidgetsPlugin/select2/select2.js');
     }
 }
