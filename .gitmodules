@@ -1,0 +1,3 @@
+[submodule "web/select2"]
+	path = web/select2
+	url = git@github.com:ivaynberg/select2.git
