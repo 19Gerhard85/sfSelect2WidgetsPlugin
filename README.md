@@ -15,7 +15,7 @@ Following widgets are included:
 Requirements
 ------------
   * symfony 1.2 / 1.3 / 1.4
-  * [sfJqueryReloadedPlugin](http://www.symfony-project.org/plugins/sfJqueryReloadedPlugin), see [Select2](https://github.com/ivaynberg/select2) for the required version of [jQuery](https://github.com/jquery/jquery)
+  * [jQuery](https://github.com/jquery/jquery), see [Select2](https://github.com/ivaynberg/select2) for the latest supported version
   * Optional: [Propel ORM](https://github.com/propelorm/sfPropelORMPlugin)
 
 Installation via Git
