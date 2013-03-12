@@ -10,7 +10,7 @@ require_once(dirname(__FILE__) . '/../select2/Select2.class.php');
  * @author      Ing. Gerhard Schranz <g.schranz@bgcc.at>
  * @version     0.1 2013-03-11
  */
-class BgWidgetFormI18nSelect2ChoiceLanguage extends sfWidgetFormI18nChoiceLanguage
+class sfWidgetFormI18nSelect2ChoiceCountry extends sfWidgetFormI18nChoiceCountry
 {
     /**
      * Configures the current widget.

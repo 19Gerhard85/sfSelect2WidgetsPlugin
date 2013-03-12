@@ -10,7 +10,7 @@ require_once(dirname(__FILE__) . '/../select2/Select2.class.php');
  * @author      Ing. Gerhard Schranz <g.schranz@bgcc.at>
  * @version     0.1 2013-03-11
  */
-class BgWidgetFormSelect2Autocompleter extends sfWidgetFormInput
+class sfWidgetFormSelect2Autocompleter extends sfWidgetFormInput
 {
     /**
      * Configures the current widget.
