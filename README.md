@@ -11,15 +11,44 @@ Following widgets are included:
   * Autocomplete (for [Propel ORM](https://github.com/propelorm/sfPropelORMPlugin))
   * Choice
   * Propel Choice (for [Propel ORM](https://github.com/propelorm/sfPropelORMPlugin))
-
-Installation
+ 
+Requirements
 ------------
+  * symfony 1.2 / 1.3 / 1.4
+  * [sfJqueryReloadedPlugin](http://www.symfony-project.org/plugins/sfJqueryReloadedPlugin), see [Select2](https://github.com/ivaynberg/select2) for required version of jQuery
+  * Optional: [Propel ORM](https://github.com/propelorm/sfPropelORMPlugin)
+
+Installation via Git
+--------------------
   * Install the plugin and init submodule
 
         $ cd plugins
         $ git clone git@github.com:19Gerhard85/sfSelect2WidgetsPlugin.git
         $ cd sfSelect2WidgetsPlugin
         $ git submodule update --init
+
+  * Enable the plugin in your `/config/ProjectConfiguration.class.php`
+
+        $this->enablePlugins('sfSelect2WidgetsPlugin');
+  
+  * Publish assets
+
+        $ ./symfony plugin:publish-assets
+
+  * Clear you cache
+
+        $ ./symfony cc
+        
+Installation via SVN
+--------------------
+  * Install the plugin and Select2 JavaScript library
+
+        $ svn propedit svn:externals plugins
+        Enter sfSelect2WidgetsPlugin https://github.com/19Gerhard85/sfSelect2WidgetsPlugin/trunk
+        $ svn update
+        $ svn propedit svn:externals plugins/sfSelect2WidgetsPlugin/web
+        $ select2 https://github.com/ivaynberg/select2/trunk
+        $ svn update
 
   * Enable the plugin in your `/config/ProjectConfiguration.class.php`
 
