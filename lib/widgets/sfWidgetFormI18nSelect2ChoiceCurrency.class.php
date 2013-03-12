@@ -1,5 +1,5 @@
 <?php
-class sfWidgetFormI18nSelect2ChoiceCurrency extends BgWidgetFormSelect2Choice
+class sfWidgetFormI18nSelect2ChoiceCurrency extends sfWidgetFormSelect2Choice
 {
     protected function configure($options = array(), $attributes = array())
     {
