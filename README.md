@@ -44,10 +44,10 @@ Installation via SVN
   * Install the plugin and Select2 JavaScript library
 
         $ svn propedit svn:externals plugins
-        Enter sfSelect2WidgetsPlugin https://github.com/19Gerhard85/sfSelect2WidgetsPlugin/trunk
+        Enter (without quotes) "sfSelect2WidgetsPlugin https://github.com/19Gerhard85/sfSelect2WidgetsPlugin/trunk"
         $ svn update
         $ svn propedit svn:externals plugins/sfSelect2WidgetsPlugin/web
-        $ select2 https://github.com/ivaynberg/select2/trunk
+        Enter (without quotes) "select2 https://github.com/ivaynberg/select2/trunk"
         $ svn update
 
   * Enable the plugin in your `/config/ProjectConfiguration.class.php`
@@ -64,5 +64,4 @@ Installation via SVN
         
 Usage
 -----
-
-  
+Coming soon...
