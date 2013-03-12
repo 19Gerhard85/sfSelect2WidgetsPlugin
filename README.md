@@ -22,10 +22,8 @@ Installation via Git
 --------------------
   * Install the plugin and init submodule
 
-        $ cd plugins
-        $ git clone git@github.com:19Gerhard85/sfSelect2WidgetsPlugin.git
-        $ cd sfSelect2WidgetsPlugin
-        $ git submodule update --init
+        $ git submodule add git://github.com/19Gerhard85/sfSelect2WidgetsPlugin.git plugins/sfSelect2WidgetsPlugin
+        $ git submodule update --init --recursive
 
   * Enable the plugin in your `/config/ProjectConfiguration.class.php`
 ``` php
