@@ -1,5 +1,5 @@
 {
-    "name": "19gerhard85/sf-select2-widgets-plugin",
+    "name": "bgcc/sf-select2-widgets-plugin",
     "type": "symfony1-plugin",
     "license": "GPL-2.0",
     "description": "Select 2 Widgets for Symfony 1",
