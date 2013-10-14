@@ -3,6 +3,7 @@
     "type": "symfony1-plugin",
     "license": "GPL-2.0",
     "description": "Select 2 Widgets for Symfony 1",
+    "keywords": ["symfony", "select2"],
     "require": {
         "composer/installers": "~1.0"
     }
