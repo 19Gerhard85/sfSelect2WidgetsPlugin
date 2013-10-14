@@ -1,0 +1,7 @@
+{
+    "name": "19gerhard85/sf-select2-widgets-plugin",
+    "type": "symfony1-plugin",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}

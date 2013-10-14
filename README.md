@@ -18,6 +18,16 @@ Requirements
   * [jQuery](https://github.com/jquery/jquery), see [Select2](https://github.com/ivaynberg/select2) for the latest supported version
   * Optional: [Propel ORM](https://github.com/propelorm/sfPropelORMPlugin)
 
+Installation via Composer
+-------------------------
+```json
+{
+    "require": {
+        "19gerhard85/sf-select2-widgets-plugin": "~1.0"
+    }
+}
+```
+
 Installation via Git
 --------------------
   * Install the plugin and init submodule
