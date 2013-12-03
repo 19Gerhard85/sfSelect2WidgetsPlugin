@@ -37,6 +37,17 @@ class sfWidgetFormI18nSelect2ChoiceCountry extends sfWidgetFormI18nChoiceCountry
         }
     }
 
+    public function getChoices()
+    {
+        $choices = parent::getChoices();
+
+        if (count($choices) > 0 && isset($choices['']) && $choices[''] == '') {
+            $choices[''] = '&nbsp;';
+        }
+
+        return $choices;
+    }
+
     /**
      * @param  string $name        The element name
      * @param  string $value       The date displayed in this widget
