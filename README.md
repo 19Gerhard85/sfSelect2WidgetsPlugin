@@ -3,7 +3,7 @@ sfSelect2WidgetsPlugin
 
 Description
 -----------
-The `sfSelect2WidgetsPlugin` is a symfony 1.2/1.3/1.4 plugin that provides several form widgets with `Select2` functionality.
+The `sfSelect2WidgetsPlugin` is a symfony 1.2 / 1.3 / 1.4 plugin that provides several form widgets with `Select2` functionality.
 Following widgets are included:
   * I18n Choice Country
   * I18n Choice Currency
