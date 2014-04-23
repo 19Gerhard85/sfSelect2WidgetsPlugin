@@ -23,7 +23,7 @@ Installation via Composer
 ```json
 {
     "require": {
-        "bgcc/sf-select2-widgets-plugin": "~1.0"
+        "bgcc/sf-select2-widgets-plugin": "dev-master"
     }
 }
 ```
