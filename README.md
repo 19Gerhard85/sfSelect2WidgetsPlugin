@@ -36,9 +36,9 @@ Installation via Git
         $ git submodule update --init --recursive
 
   * Enable the plugin in your `/config/ProjectConfiguration.class.php`
-``` php
- $this->enablePlugins('sfSelect2WidgetsPlugin');
-```
+    ``` php
+    $this->enablePlugins('sfSelect2WidgetsPlugin');
+    ```
   
   * Publish assets
 
@@ -60,9 +60,9 @@ Installation via SVN
         $ svn update
 
   * Enable the plugin in your `/config/ProjectConfiguration.class.php`
-``` php
- $this->enablePlugins('sfSelect2WidgetsPlugin');
-```
+    ``` php
+    $this->enablePlugins('sfSelect2WidgetsPlugin');
+    ```
 
   * Publish assets
 
