@@ -9,8 +9,8 @@ class Select2
      */
     public static function addJavascripts($culture = null)
     {
-        $path = sfConfig::get('sf_select2_web_dir');
-        $available_cultures = sfConfig::get('sf_available_cultures');
+        $path = sfConfig::get('sf_sfSelect2Widgets_select2_web_dir');
+        $available_cultures = sfConfig::get('sf_sfSelect2Widgets_available_cultures');
 
         $javascripts = array($path . '/select2.js');
 
@@ -28,7 +28,7 @@ class Select2
      */
     public static function addStylesheets()
     {
-        $path = sfConfig::get('sf_select2_web_dir');
+        $path = sfConfig::get('sf_sfSelect2Widgets_select2_web_dir');
 
         return array($path . '/select2.css' => 'all');
     }
