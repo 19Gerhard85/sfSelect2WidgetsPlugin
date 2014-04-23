@@ -34,7 +34,7 @@ class sfWidgetFormSelect2Autocompleter extends sfWidgetFormInput
         $this->addOption('method', '__toString');
 
         $this->addOption('culture', sfContext::getInstance()->getUser()->getCulture());
-        $this->addOption('width', 'resolve');
+        $this->addOption('width', sfConfig::get('sf_sfSelect2Widgets_width'));
         $this->addOption('minimumInputLength', 2);
         $this->addOption('placeholder', '');
         $this->addOption('allowClear', true);
