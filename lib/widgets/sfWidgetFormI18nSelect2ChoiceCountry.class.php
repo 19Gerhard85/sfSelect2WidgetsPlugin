@@ -28,7 +28,7 @@ class sfWidgetFormI18nSelect2ChoiceCountry extends sfWidgetFormI18nChoiceCountry
      */
     protected function configure($options = array(), $attributes = array())
     {
-        $this->addOption('width', 'resolve');
+        $this->addOption('width', sfConfig::get('sf_sfSelect2Widgets_width'));
 
         parent::configure($options, $attributes);
 
