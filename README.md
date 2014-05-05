@@ -1,5 +1,9 @@
 sfSelect2WidgetsPlugin
 ======================
+[![License](https://poser.pugx.org/bgcc/sf-select2-widgets-plugin/license.png)](https://packagist.org/packages/bgcc/sf-select2-widgets-plugin)
+[![Total Downloads](https://poser.pugx.org/bgcc/sf-select2-widgets-plugin/downloads.png)](https://packagist.org/packages/bgcc/sf-select2-widgets-plugin)
+[![Monthly Downloads](https://poser.pugx.org/bgcc/sf-select2-widgets-plugin/d/monthly.png)](https://packagist.org/packages/bgcc/sf-select2-widgets-plugin)
+[![Daily Downloads](https://poser.pugx.org/bgcc/sf-select2-widgets-plugin/d/daily.png)](https://packagist.org/packages/bgcc/sf-select2-widgets-plugin)
 
 Description
 -----------
