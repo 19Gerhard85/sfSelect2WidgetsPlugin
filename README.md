@@ -4,6 +4,7 @@ sfSelect2WidgetsPlugin
 [![Total Downloads](https://poser.pugx.org/bgcc/sf-select2-widgets-plugin/downloads.png)](https://packagist.org/packages/bgcc/sf-select2-widgets-plugin)
 [![Monthly Downloads](https://poser.pugx.org/bgcc/sf-select2-widgets-plugin/d/monthly.png)](https://packagist.org/packages/bgcc/sf-select2-widgets-plugin)
 [![Daily Downloads](https://poser.pugx.org/bgcc/sf-select2-widgets-plugin/d/daily.png)](https://packagist.org/packages/bgcc/sf-select2-widgets-plugin)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/19Gerhard85/sfSelect2WidgetsPlugin/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/19Gerhard85/sfSelect2WidgetsPlugin/?branch=master)
 
 Description
 -----------
