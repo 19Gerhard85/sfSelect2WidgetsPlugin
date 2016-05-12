@@ -59,6 +59,8 @@ class sfWidgetFormSelect2Choice extends sfWidgetFormChoice
     {
         $id = $this->generateId($name);
 
+        $choices = $this->getChoices();
+
         $return = parent::render($name, $value, $attributes, $errors);
 
         $return .= sprintf(<<<EOF
@@ -78,7 +80,7 @@ EOF
             ,
             $id,
             $this->getOption('width'),
-            $this->getOption('add_empty') == true ? 'true' : 'false'
+            isset($choices['']) ? 'true' : 'false'
         );
 
         return $return;
